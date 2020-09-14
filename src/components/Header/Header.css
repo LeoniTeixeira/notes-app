@@ -1,0 +1,39 @@
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(7, 22, 90);
+    color:white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1rem;
+}
+
+.btn-header{
+    padding: 0 1rem;
+    margin: 0 1rem;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #216823;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0.1rem 0.2rem #ddd;
+}
+
+.btn-header:hover{
+    background-color: #218a25;
+}
+
+.btn-header:active{
+    color:whitesmoke;
+    background-color: #216823;
+    box-shadow: 0 0;
+    transform: translateY(0.2rem) translateX(0.1rem);
+}
+    
+    
+    
