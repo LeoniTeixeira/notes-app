@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Header.css'
 
 function Header({handleAdd}) {
@@ -14,5 +13,4 @@ function Header({handleAdd}) {
     </div>
   )
 }
-
 export default Header;
